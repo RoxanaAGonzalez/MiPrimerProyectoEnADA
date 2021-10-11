@@ -110,7 +110,7 @@ a{
 
 .loquesehacer{
     font-size: 20px;
-    width: 50%;
+    width: 80%;
     text-align: center;
     display: inline-table;
 }
@@ -134,7 +134,7 @@ a{
 
 .imgconocimientos{
     width: 25%;
-    margin-top: 25px;
+    margin-top: 60px;
 
 }
 
@@ -149,8 +149,6 @@ a{
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 30px black;
-
-
 }
 
 .comillas{
@@ -160,7 +158,6 @@ a{
     height: 90px;
     margin-top: 70px;
     justify-content: center;
-
 }
 
 .imgcomillas{
@@ -237,43 +234,53 @@ h2{
 
 .containercontacto{
     background-color: rgb(7, 78, 78);
-    border: blue 3px;
     font-size: 30px;
     font-family: Verdana, Tahoma, sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 30px black;
-    width: 70%;
+    width: 80%;
+    padding: 0 40px 120px;
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .contacto{
     background-color: rgb(7, 78, 78);
     display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    border: blue 3px;
+    justify-content: right;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: column;
-    
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
-.titulo{
-    margin-top: 30px;
+h1{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: cursive;
+
 
 }
 
 .pcontacto{
     color: antiquewhite;
     font-size: 20px;
-    width: 50%;
+    width: 100%;
+    text-align: left;
+    margin: 5px 5px 5px 5px;
 }
 
 .social-networks a{
-    display: inline-flex;
+    display: flex;
     color: brown;
     width: 48px;
     height: 48px;
@@ -282,9 +289,23 @@ h2{
     align-items: center;
     text-decoration: none;
     border-radius: 50%; 
-    margin: 0 6px;
+    margin: 0 15px;
     transition: transform 0.4s;
+    flex-direction: column;
+    margin-top: 20px;
     
+}
+
+.iconsredes{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+}
+
+span{
+    align-items:stretch
+    margin-top: 10px;
 }
 
 .social-networks a:hover{
@@ -294,4 +315,50 @@ h2{
 .social-networks a.facebook 
 .escribime{
 
+}
+
+.containerescribime{
+
+}
+
+.containerformulario{
+    background-color: rgb(7, 78, 78);
+    border: blue 3px;
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    width: 60%;
+    margin-right: 40px;
+}
+
+.nombreyapellido{
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: 5px;
+}
+
+.social-networks2 a{
+    display: flex;
+    color: brown;
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%; 
+    margin: 0 15px;
+    transition: transform 0.4s;
+    flex-direction:column;
+    margin-top: 20px;
+    
+}
+
+.iconsredes2{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
 }
