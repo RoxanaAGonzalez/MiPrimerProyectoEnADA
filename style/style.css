@@ -15,9 +15,7 @@ body{
 nav{
     background-color: #c290f1;
     width: 100%; 
-    
     overflow: hidden;
-    border-radius: 3px; 
     text-align: right;
     display: inline-block;
     align-items: center;
@@ -31,6 +29,8 @@ nav{
     
 }
 
+
+
 li{
     
     display: inline;
@@ -39,7 +39,10 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: blue 3px;
     margin-left: 5px;
+    border-radius: 2em;
 }
+
+
 
 a{
     text-decoration: none;    
@@ -79,6 +82,8 @@ a{
 .loquehago{
     font-size: 20px;
     text-align: left;
+    background-color: rgb(168, 50, 197);
+    border-radius: 4px;
     
 }
 
@@ -120,8 +125,6 @@ a{
     width: 60%;
 
 }
-
-
 
 .iconos{
     font-size: 30px;
@@ -438,4 +441,6 @@ h1{
     text-align: center;
 }
 
-@media  
+
+
+@media (max-width:320px) and () 
