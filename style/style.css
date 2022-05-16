@@ -311,7 +311,7 @@ h2{
     font-size: 30px;
     font-family: Verdana, Tahoma, sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 7vh;
@@ -380,7 +380,7 @@ h1{
 }
 
 .iconsredes a, .iconsredes i{
-    display: inline;
+    display:block
 }
 
 
@@ -477,8 +477,12 @@ h1{
 
 
 
-@media screen and (min-width:320px) and (max-width:1020px){
+@media screen and (min-width:340px) and (max-width:580px){
     
+    nav{
+        display: none;
+    }
+
     /*comienzo de la precentacion*/
     .presentacion{
         display: flex;
@@ -491,7 +495,10 @@ h1{
     .holasoy{
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+
+    .loquehago{
+        text-align: center;
     }
     
     .imgpresentacion{
@@ -499,6 +506,10 @@ h1{
         height: 500px;
         flex-direction: column;
         
+    }
+
+    .proyectos, .loremcomillas{
+        width: 90%;
     }
     /*fin de la presentacion*/
     
@@ -707,10 +718,9 @@ h1{
     /*final de mis proyectos*/
     
     /*comienzo de seccion contacto*/
-    .containercontacto{
-        
+    .containercontacto{  
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: start;
         align-items: center;
         padding-bottom: 7vh;
@@ -719,13 +729,26 @@ h1{
     
     .contacto{
         flex-direction: column;
-        justify-content: end;
+        justify-content: start;
+        width: 80%;
     }
 
-    p{
+    .pcontacto, h1{
         display: flex;
-        flex-direction: center;
+        flex-direction: start;
         justify-content: space-around;  
+    }
+
+    .iconsredes{
+        width: 70%;
+    }
+
+    .social-networks, .social-networks i, .social-networks a{
+        display: flex;
+        flex-direction: column;
+         
+        flex-wrap: wrap;
+        width: 30%;
     }
     /*
     .contacto{
