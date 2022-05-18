@@ -578,3 +578,10 @@ i:hover{
     }
 
     /*responsive para tablet*/
+
+    @media screen and(min-width:580px) and(max-width:920px){
+        .nav{
+            display: none;
+        }
+        
+    }
